@@ -1,0 +1,67 @@
+
+
+
+
+body {
+    background: #ccc;
+  }
+  .App {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+   
+  
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .card {
+    border: 1px solid #fff;
+    background: rgb(9, 9, 9);
+    border-radius: 8px;
+    overflow: hidden;
+    
+    height: auto;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .card-top h1 {
+    font-size: 1.8 rem;
+    margin: 20px;
+    color: gold;
+    font-style: italic;
+  }
+
+ 
+
+
+  
+  .card-top > img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    background: black;
+    
+  }
+  
+  .card-bottom {
+    margin: 10px 20px;
+  }
+  
+  .button{
+    background-color: #a7f6ab; /* Green */
+  border: none;
+  border-radius:40px ;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+    justify-content: center;
+  display: inline-block;
+  font-size: 16px;
+  }
